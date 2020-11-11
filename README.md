@@ -1,9 +1,22 @@
-# ![Node/Express/Mongoose Example App](project-logo.png)
+## Appolo Url Shortner Example.
 
-[![Build Status](https://travis-ci.org/anishkny/node-express-realworld-example-app.svg?branch=master)](https://travis-ci.org/anishkny/node-express-realworld-example-app)
+Build realworld-example-app  with [Appolo](https://appolojs.com/) and Postgres and typeorm
 
-> ### NestJS codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) API spec.
+client from [react-redux-realworld-example-app](https://github.com/gothinkster/react-redux-realworld-example-app) 
 
+**Install**
 
-----------
+```
+npm install
 
+```
+
+**Run**
+set ENV POSTGRES  = to your posgres url
+
+```
+node app.js
+
+```
+
+Navigate to http://localhost:4000
